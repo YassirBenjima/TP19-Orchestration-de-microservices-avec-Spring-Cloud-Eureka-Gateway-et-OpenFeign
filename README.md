@@ -152,18 +152,6 @@ Centraliser authN/authZ.
 
 ---
 
-## 📊 Observabilité (aperçu)
-
-### Actuator
-- `/actuator/health`
-- Métriques
-- Env
-
-### Traces distribuées
-Sleuth/Zipkin (optionnel dans ce lab)
-
----
-
 ## 🚀 Démarrage rapide
 
 ### Ordre de démarrage recommandé
@@ -224,9 +212,39 @@ Sleuth/Zipkin (optionnel dans ce lab)
 
 ---
 
-## 📚 Ressources
+## 📚 DEMO
+### Eureka : présence de SERVICE-CLIENT et SERVICE-VOITURE
 
-- [Spring Cloud Documentation](https://spring.io/projects/spring-cloud)
-- [Spring Cloud Gateway](https://spring.io/projects/spring-cloud-gateway)
-- [Netflix Eureka](https://github.com/Netflix/eureka)
+<img width="1900" height="1019" alt="Screenshot 2025-11-29 115805" src="https://github.com/user-attachments/assets/3994db6c-b59e-46ef-a331-8ab80ad51397" />
 
+### Gateway : http://localhost:8888/clients
+
+<img width="1919" height="1016" alt="Screenshot 2025-11-29 113227" src="https://github.com/user-attachments/assets/07713550-cb3f-46e0-848f-981b9982738c" />
+
+### Gateway : http://localhost:8888/client/1
+
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/24d02ecc-0072-4437-82af-098cddda87db" />
+
+### Gateway : http://localhost:8888/voitures
+
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/69282f91-2963-48c0-9de6-890ab9926d2c" />
+
+### Microservices : http://localhost:8088/clients
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/558a9bb7-91b9-4680-8cff-101f622be7c8" />
+
+### Microservices : http://localhost:8088/client/1
+
+<img width="1914" height="1019" alt="image" src="https://github.com/user-attachments/assets/2d543b5f-d492-4fea-9e26-c0172d4bd6e4" />
+
+### Microservices : http://localhost:8089/voitures
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/bd47c483-c307-4399-a2d1-4d16597ca384" />
+
+### Microservices : http://localhost:8089/voitures/1
+
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/930e113d-059b-47d2-87be-4a60e399b10b" />
+
+### Microservices : http://localhost:8089/voitures/client/1
+
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/dc92de41-13b9-464a-80f3-f64a25758a6f" />
